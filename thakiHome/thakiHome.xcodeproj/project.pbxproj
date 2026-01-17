@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B044FFEC2F11917200E40D29 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B044FFEB2F11917200E40D29 /* FirebaseFirestore */; };
+		B08640962F1820F800B6D558 /* AddDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08640832F1820F800B6D558 /* AddDeviceView.swift */; };
+		B08640972F1820F800B6D558 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08640852F1820F800B6D558 /* BluetoothManager.swift */; };
+		B08640982F1820F800B6D558 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08640862F1820F800B6D558 /* ColorExtensions.swift */; };
+		B08640992F1820F800B6D558 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08640872F1820F800B6D558 /* ContentView.swift */; };
+		B086409A2F1820F800B6D558 /* DeviceDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08640882F1820F800B6D558 /* DeviceDetailsView.swift */; };
+		B086409B2F1820F800B6D558 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08640892F1820F800B6D558 /* DeviceModel.swift */; };
+		B086409C2F1820F800B6D558 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B086408A2F1820F800B6D558 /* EditProfileView.swift */; };
+		B086409D2F1820F800B6D558 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B086408C2F1820F800B6D558 /* HomeView.swift */; };
+		B086409E2F1820F800B6D558 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B086408D2F1820F800B6D558 /* HomeViewModel.swift */; };
+		B086409F2F1820F800B6D558 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08640902F1820F800B6D558 /* LoginView.swift */; };
+		B08640A02F1820F800B6D558 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08640912F1820F800B6D558 /* ProfileView.swift */; };
+		B08640A12F1820F800B6D558 /* SecurityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08640922F1820F800B6D558 /* SecurityView.swift */; };
+		B08640A22F1820F800B6D558 /* SmartWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08640932F1820F800B6D558 /* SmartWebView.swift */; };
+		B08640A32F1820F800B6D558 /* thakiHomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08640942F1820F800B6D558 /* thakiHomeApp.swift */; };
+		B08640A42F1820F800B6D558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B08640842F1820F800B6D558 /* Assets.xcassets */; };
+		B08640A52F1820F800B6D558 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B086408B2F1820F800B6D558 /* GoogleService-Info.plist */; };
+		B08640A72F1820F800B6D558 /* LaunchScreen1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B086408F2F1820F800B6D558 /* LaunchScreen1.storyboard */; };
+		B08640B12F1823D200B6D558 /* WaterTankCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08640B02F1823D200B6D558 /* WaterTankCard.swift */; };
+		B08640B32F1823F300B6D558 /* DeviceContentUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08640B22F1823F300B6D558 /* DeviceContentUtils.swift */; };
+		B08640B52F18240100B6D558 /* AdvancedLayoutEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08640B42F18240100B6D558 /* AdvancedLayoutEngine.swift */; };
+		B08640B82F18246900B6D558 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08640B72F18246900B6D558 /* DashboardView.swift */; };
+		B08640BA2F18247A00B6D558 /* AllDevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08640B92F18247A00B6D558 /* AllDevicesView.swift */; };
+		B08640BC2F182C4100B6D558 /* ManualSetupWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08640BB2F182C4100B6D558 /* ManualSetupWizard.swift */; };
+		B08640BE2F18309900B6D558 /* DeviceSetupWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08640BD2F18309900B6D558 /* DeviceSetupWizard.swift */; };
+		B08640C02F191CFF00B6D558 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08640BF2F191CFF00B6D558 /* HomeHeaderView.swift */; };
+		B08640C22F191D3500B6D558 /* FamilyManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08640C12F191D3500B6D558 /* FamilyManagementView.swift */; };
+		B08640C42F192F3100B6D558 /* FamilyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08640C32F192F3100B6D558 /* FamilyViewModel.swift */; };
+		B08FDC202F0A6ACB0065BA91 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = B08FDC1F2F0A6ACB0065BA91 /* FirebaseCore */; };
+		B08FDC262F0BFD2A0065BA91 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B08FDC252F0BFD2A0065BA91 /* FirebaseAuth */; };
+		B08FDC332F0C5E800065BA91 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = B08FDC322F0C5E800065BA91 /* GoogleSignIn */; };
+		B08FDC352F0C5E800065BA91 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B08FDC342F0C5E800065BA91 /* GoogleSignInSwift */; };
+		B0FA6C9A2F0C6F47002AEA73 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FA6C982F0C6F28002AEA73 /* AuthenticationServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B08FDBFE2F0A66D60065BA91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B08FDBE82F0A66D40065BA91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B08FDBEF2F0A66D40065BA91;
+			remoteInfo = thakiHome;
+		};
+		B08FDC082F0A66D60065BA91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B08FDBE82F0A66D40065BA91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B08FDBEF2F0A66D40065BA91;
+			remoteInfo = thakiHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B08640832F1820F800B6D558 /* AddDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDeviceView.swift; sourceTree = "<group>"; };
+		B08640842F1820F800B6D558 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B08640852F1820F800B6D558 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		B08640862F1820F800B6D558 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		B08640872F1820F800B6D558 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B08640882F1820F800B6D558 /* DeviceDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetailsView.swift; sourceTree = "<group>"; };
+		B08640892F1820F800B6D558 /* DeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
+		B086408A2F1820F800B6D558 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		B086408B2F1820F800B6D558 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B086408C2F1820F800B6D558 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B086408D2F1820F800B6D558 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		B086408E2F1820F800B6D558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B086408F2F1820F800B6D558 /* LaunchScreen1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen1.storyboard; sourceTree = "<group>"; };
+		B08640902F1820F800B6D558 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B08640912F1820F800B6D558 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B08640922F1820F800B6D558 /* SecurityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityView.swift; sourceTree = "<group>"; };
+		B08640932F1820F800B6D558 /* SmartWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartWebView.swift; sourceTree = "<group>"; };
+		B08640942F1820F800B6D558 /* thakiHomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thakiHomeApp.swift; sourceTree = "<group>"; };
+		B08640B02F1823D200B6D558 /* WaterTankCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTankCard.swift; sourceTree = "<group>"; };
+		B08640B22F1823F300B6D558 /* DeviceContentUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceContentUtils.swift; sourceTree = "<group>"; };
+		B08640B42F18240100B6D558 /* AdvancedLayoutEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedLayoutEngine.swift; sourceTree = "<group>"; };
+		B08640B72F18246900B6D558 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		B08640B92F18247A00B6D558 /* AllDevicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDevicesView.swift; sourceTree = "<group>"; };
+		B08640BB2F182C4100B6D558 /* ManualSetupWizard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualSetupWizard.swift; sourceTree = "<group>"; };
+		B08640BD2F18309900B6D558 /* DeviceSetupWizard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSetupWizard.swift; sourceTree = "<group>"; };
+		B08640BF2F191CFF00B6D558 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		B08640C12F191D3500B6D558 /* FamilyManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyManagementView.swift; sourceTree = "<group>"; };
+		B08640C32F192F3100B6D558 /* FamilyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyViewModel.swift; sourceTree = "<group>"; };
+		B08FDBF02F0A66D40065BA91 /* thakiHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thakiHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B08FDBFD2F0A66D60065BA91 /* thakiHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thakiHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B08FDC072F0A66D60065BA91 /* thakiHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thakiHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0FA6C982F0C6F28002AEA73 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B08FDC002F0A66D60065BA91 /* thakiHomeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = thakiHomeTests;
+			sourceTree = "<group>";
+		};
+		B08FDC0A2F0A66D60065BA91 /* thakiHomeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = thakiHomeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B08FDBED2F0A66D40065BA91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FA6C9A2F0C6F47002AEA73 /* AuthenticationServices.framework in Frameworks */,
+				B08FDC352F0C5E800065BA91 /* GoogleSignInSwift in Frameworks */,
+				B08FDC332F0C5E800065BA91 /* GoogleSignIn in Frameworks */,
+				B08FDC262F0BFD2A0065BA91 /* FirebaseAuth in Frameworks */,
+				B08FDC202F0A6ACB0065BA91 /* FirebaseCore in Frameworks */,
+				B044FFEC2F11917200E40D29 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08FDBFA2F0A66D60065BA91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08FDC042F0A66D60065BA91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B08640952F1820F800B6D558 /* thakiHome */ = {
+			isa = PBXGroup;
+			children = (
+				B08640AB2F18224A00B6D558 /* Views */,
+				B08640842F1820F800B6D558 /* Assets.xcassets */,
+				B08640A82F18217900B6D558 /* Core */,
+				B08640872F1820F800B6D558 /* ContentView.swift */,
+				B08640A92F18219C00B6D558 /* Models */,
+				B086408B2F1820F800B6D558 /* GoogleService-Info.plist */,
+				B08640AA2F1821B600B6D558 /* ViewModels */,
+				B086408E2F1820F800B6D558 /* Info.plist */,
+				B086408F2F1820F800B6D558 /* LaunchScreen1.storyboard */,
+				B08640942F1820F800B6D558 /* thakiHomeApp.swift */,
+			);
+			path = thakiHome;
+			sourceTree = "<group>";
+		};
+		B08640A82F18217900B6D558 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B08640852F1820F800B6D558 /* BluetoothManager.swift */,
+				B08640862F1820F800B6D558 /* ColorExtensions.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B08640A92F18219C00B6D558 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B08640892F1820F800B6D558 /* DeviceModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B08640AA2F1821B600B6D558 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B086408D2F1820F800B6D558 /* HomeViewModel.swift */,
+				B08640C32F192F3100B6D558 /* FamilyViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B08640AB2F18224A00B6D558 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B08640B62F18243200B6D558 /* Main */,
+				B08640AF2F1823B100B6D558 /* Components */,
+				B08640AE2F1822B500B6D558 /* Profile */,
+				B08640AD2F18228200B6D558 /* Devices */,
+				B08640AC2F18226400B6D558 /* Auth */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B08640AC2F18226400B6D558 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				B08640902F1820F800B6D558 /* LoginView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		B08640AD2F18228200B6D558 /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				B08640832F1820F800B6D558 /* AddDeviceView.swift */,
+				B08640882F1820F800B6D558 /* DeviceDetailsView.swift */,
+				B08640932F1820F800B6D558 /* SmartWebView.swift */,
+				B08640BB2F182C4100B6D558 /* ManualSetupWizard.swift */,
+				B08640BD2F18309900B6D558 /* DeviceSetupWizard.swift */,
+			);
+			path = Devices;
+			sourceTree = "<group>";
+		};
+		B08640AE2F1822B500B6D558 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B086408A2F1820F800B6D558 /* EditProfileView.swift */,
+				B08640912F1820F800B6D558 /* ProfileView.swift */,
+				B08640922F1820F800B6D558 /* SecurityView.swift */,
+				B08640C12F191D3500B6D558 /* FamilyManagementView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B08640AF2F1823B100B6D558 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B08640B02F1823D200B6D558 /* WaterTankCard.swift */,
+				B08640B22F1823F300B6D558 /* DeviceContentUtils.swift */,
+				B08640B42F18240100B6D558 /* AdvancedLayoutEngine.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B08640B62F18243200B6D558 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B086408C2F1820F800B6D558 /* HomeView.swift */,
+				B08640B72F18246900B6D558 /* DashboardView.swift */,
+				B08640B92F18247A00B6D558 /* AllDevicesView.swift */,
+				B08640BF2F191CFF00B6D558 /* HomeHeaderView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B08FDBE72F0A66D40065BA91 = {
+			isa = PBXGroup;
+			children = (
+				B08640952F1820F800B6D558 /* thakiHome */,
+				B08FDC002F0A66D60065BA91 /* thakiHomeTests */,
+				B08FDC0A2F0A66D60065BA91 /* thakiHomeUITests */,
+				B0FA6C972F0C6F28002AEA73 /* Frameworks */,
+				B08FDBF12F0A66D40065BA91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B08FDBF12F0A66D40065BA91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B08FDBF02F0A66D40065BA91 /* thakiHome.app */,
+				B08FDBFD2F0A66D60065BA91 /* thakiHomeTests.xctest */,
+				B08FDC072F0A66D60065BA91 /* thakiHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0FA6C972F0C6F28002AEA73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0FA6C982F0C6F28002AEA73 /* AuthenticationServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B08FDBEF2F0A66D40065BA91 /* thakiHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B08FDC112F0A66D60065BA91 /* Build configuration list for PBXNativeTarget "thakiHome" */;
+			buildPhases = (
+				B08FDBEC2F0A66D40065BA91 /* Sources */,
+				B08FDBED2F0A66D40065BA91 /* Frameworks */,
+				B08FDBEE2F0A66D40065BA91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = thakiHome;
+			packageProductDependencies = (
+				B08FDC1F2F0A6ACB0065BA91 /* FirebaseCore */,
+				B08FDC252F0BFD2A0065BA91 /* FirebaseAuth */,
+				B08FDC322F0C5E800065BA91 /* GoogleSignIn */,
+				B08FDC342F0C5E800065BA91 /* GoogleSignInSwift */,
+				B044FFEB2F11917200E40D29 /* FirebaseFirestore */,
+			);
+			productName = thakiHome;
+			productReference = B08FDBF02F0A66D40065BA91 /* thakiHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B08FDBFC2F0A66D60065BA91 /* thakiHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B08FDC142F0A66D60065BA91 /* Build configuration list for PBXNativeTarget "thakiHomeTests" */;
+			buildPhases = (
+				B08FDBF92F0A66D60065BA91 /* Sources */,
+				B08FDBFA2F0A66D60065BA91 /* Frameworks */,
+				B08FDBFB2F0A66D60065BA91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B08FDBFF2F0A66D60065BA91 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B08FDC002F0A66D60065BA91 /* thakiHomeTests */,
+			);
+			name = thakiHomeTests;
+			packageProductDependencies = (
+			);
+			productName = thakiHomeTests;
+			productReference = B08FDBFD2F0A66D60065BA91 /* thakiHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B08FDC062F0A66D60065BA91 /* thakiHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B08FDC172F0A66D60065BA91 /* Build configuration list for PBXNativeTarget "thakiHomeUITests" */;
+			buildPhases = (
+				B08FDC032F0A66D60065BA91 /* Sources */,
+				B08FDC042F0A66D60065BA91 /* Frameworks */,
+				B08FDC052F0A66D60065BA91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B08FDC092F0A66D60065BA91 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B08FDC0A2F0A66D60065BA91 /* thakiHomeUITests */,
+			);
+			name = thakiHomeUITests;
+			packageProductDependencies = (
+			);
+			productName = thakiHomeUITests;
+			productReference = B08FDC072F0A66D60065BA91 /* thakiHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B08FDBE82F0A66D40065BA91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					B08FDBEF2F0A66D40065BA91 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					B08FDBFC2F0A66D60065BA91 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = B08FDBEF2F0A66D40065BA91;
+					};
+					B08FDC062F0A66D60065BA91 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = B08FDBEF2F0A66D40065BA91;
+					};
+				};
+			};
+			buildConfigurationList = B08FDBEB2F0A66D40065BA91 /* Build configuration list for PBXProject "thakiHome" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B08FDBE72F0A66D40065BA91;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B08FDC1E2F0A6ACB0065BA91 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				B08FDC312F0C5E800065BA91 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B08FDBF12F0A66D40065BA91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B08FDBEF2F0A66D40065BA91 /* thakiHome */,
+				B08FDBFC2F0A66D60065BA91 /* thakiHomeTests */,
+				B08FDC062F0A66D60065BA91 /* thakiHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B08FDBEE2F0A66D40065BA91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08640A42F1820F800B6D558 /* Assets.xcassets in Resources */,
+				B08640A52F1820F800B6D558 /* GoogleService-Info.plist in Resources */,
+				B08640A72F1820F800B6D558 /* LaunchScreen1.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08FDBFB2F0A66D60065BA91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08FDC052F0A66D60065BA91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B08FDBEC2F0A66D40065BA91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08640962F1820F800B6D558 /* AddDeviceView.swift in Sources */,
+				B08640BE2F18309900B6D558 /* DeviceSetupWizard.swift in Sources */,
+				B08640972F1820F800B6D558 /* BluetoothManager.swift in Sources */,
+				B08640982F1820F800B6D558 /* ColorExtensions.swift in Sources */,
+				B08640992F1820F800B6D558 /* ContentView.swift in Sources */,
+				B086409A2F1820F800B6D558 /* DeviceDetailsView.swift in Sources */,
+				B08640C02F191CFF00B6D558 /* HomeHeaderView.swift in Sources */,
+				B086409B2F1820F800B6D558 /* DeviceModel.swift in Sources */,
+				B08640BC2F182C4100B6D558 /* ManualSetupWizard.swift in Sources */,
+				B086409C2F1820F800B6D558 /* EditProfileView.swift in Sources */,
+				B086409D2F1820F800B6D558 /* HomeView.swift in Sources */,
+				B08640BA2F18247A00B6D558 /* AllDevicesView.swift in Sources */,
+				B08640C22F191D3500B6D558 /* FamilyManagementView.swift in Sources */,
+				B086409E2F1820F800B6D558 /* HomeViewModel.swift in Sources */,
+				B086409F2F1820F800B6D558 /* LoginView.swift in Sources */,
+				B08640A02F1820F800B6D558 /* ProfileView.swift in Sources */,
+				B08640A12F1820F800B6D558 /* SecurityView.swift in Sources */,
+				B08640A22F1820F800B6D558 /* SmartWebView.swift in Sources */,
+				B08640B82F18246900B6D558 /* DashboardView.swift in Sources */,
+				B08640A32F1820F800B6D558 /* thakiHomeApp.swift in Sources */,
+				B08640B12F1823D200B6D558 /* WaterTankCard.swift in Sources */,
+				B08640B52F18240100B6D558 /* AdvancedLayoutEngine.swift in Sources */,
+				B08640C42F192F3100B6D558 /* FamilyViewModel.swift in Sources */,
+				B08640B32F1823F300B6D558 /* DeviceContentUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08FDBF92F0A66D60065BA91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08FDC032F0A66D60065BA91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B08FDBFF2F0A66D60065BA91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B08FDBEF2F0A66D40065BA91 /* thakiHome */;
+			targetProxy = B08FDBFE2F0A66D60065BA91 /* PBXContainerItemProxy */;
+		};
+		B08FDC092F0A66D60065BA91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B08FDBEF2F0A66D40065BA91 /* thakiHome */;
+			targetProxy = B08FDC082F0A66D60065BA91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B08FDC0F2F0A66D60065BA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9R5P85Z99E;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B08FDC102F0A66D60065BA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9R5P85Z99E;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B08FDC122F0A66D60065BA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9R5P85Z99E;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = thakiHome/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = thakiHome;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = sto;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thakihome.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B08FDC132F0A66D60065BA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9R5P85Z99E;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = thakiHome/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = thakiHome;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = sto;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thakihome.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B08FDC152F0A66D60065BA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9R5P85Z99E;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thakihome.app.thakiHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thakiHome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/thakiHome";
+			};
+			name = Debug;
+		};
+		B08FDC162F0A66D60065BA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9R5P85Z99E;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thakihome.app.thakiHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thakiHome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/thakiHome";
+			};
+			name = Release;
+		};
+		B08FDC182F0A66D60065BA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9R5P85Z99E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thakihome.app.thakiHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = thakiHome;
+			};
+			name = Debug;
+		};
+		B08FDC192F0A66D60065BA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9R5P85Z99E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thakihome.app.thakiHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = thakiHome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B08FDBEB2F0A66D40065BA91 /* Build configuration list for PBXProject "thakiHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B08FDC0F2F0A66D60065BA91 /* Debug */,
+				B08FDC102F0A66D60065BA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B08FDC112F0A66D60065BA91 /* Build configuration list for PBXNativeTarget "thakiHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B08FDC122F0A66D60065BA91 /* Debug */,
+				B08FDC132F0A66D60065BA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B08FDC142F0A66D60065BA91 /* Build configuration list for PBXNativeTarget "thakiHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B08FDC152F0A66D60065BA91 /* Debug */,
+				B08FDC162F0A66D60065BA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B08FDC172F0A66D60065BA91 /* Build configuration list for PBXNativeTarget "thakiHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B08FDC182F0A66D60065BA91 /* Debug */,
+				B08FDC192F0A66D60065BA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B08FDC1E2F0A6ACB0065BA91 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.7.0;
+			};
+		};
+		B08FDC312F0C5E800065BA91 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B044FFEB2F11917200E40D29 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B08FDC1E2F0A6ACB0065BA91 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		B08FDC1F2F0A6ACB0065BA91 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B08FDC1E2F0A6ACB0065BA91 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		B08FDC252F0BFD2A0065BA91 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B08FDC1E2F0A6ACB0065BA91 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		B08FDC322F0C5E800065BA91 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B08FDC312F0C5E800065BA91 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		B08FDC342F0C5E800065BA91 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B08FDC312F0C5E800065BA91 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B08FDBE82F0A66D40065BA91 /* Project object */;
+}
